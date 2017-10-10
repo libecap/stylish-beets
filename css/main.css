@@ -5,7 +5,7 @@ html {
 
 h1 {
   color: #3f1622;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.5rem;
 }
 
@@ -13,13 +13,19 @@ nav ol {
   list-style: none;
   text-decoration: none;
   font-weight: normal;
-
 }
-nav ol li a {
+
+a {
   color: #8f2440;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 h2 {
@@ -27,67 +33,73 @@ h2 {
 }
 
 figure figcaption {
-  font-family:  'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: .8rem;
   text-align: center;
 }
+
+img {
+  width: 100%;
+}
+
 .time {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
 
-blockquote{
-  font-family:  'PT Sans', sans-serif;
+blockquote {
+  font-family: "PT Sans", sans-serif;
   font-style: italic;
   font-size: 1.5rem;
   text-align: left;
 }
 
-blockquote cite{
-  font-family:  'PT Sans', sans-serif;
+blockquote cite {
+  font-family: "PT Sans", sans-serif;
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: .8rem;
   text-align: left;
 }
 
 .variety {
-  font-family:  'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   list-style: lower-greek;
 }
 
-.serving-size{
-  font-family:  'PT Sans', sans-serif;
+.serving-size {
+  font-family: "PT Sans", sans-serif;
   font-style: italic;
   font-size: 1.5rem;
 }
 
 .serving-size:first-child {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-style: italic;
-
 }
+
 .serving-size dt {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
 
 .serving-size dd {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
 }
 
 .tags {
-  font-family:  'PT Sans', sans-serif;
-  font-size: 0.8rem;
-  list-style: circle;
+  font-family: "PT Sans", sans-serif;
+  font-size: .8rem;
+  list-style-type: disc;
 }
+
 footer div p a {
   color: #8f2440;
-  font-family:  'PT Sans', sans-serif;
-  font-size: 0.8rem;
+  font-family: "PT Sans", sans-serif;
+  font-size: .8rem;
 }
