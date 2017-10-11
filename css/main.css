@@ -3,6 +3,10 @@ html {
   line-height: 1.5;
 }
 
+header {
+  font-weight: bold;
+}
+
 h1 {
   color: #3f1622;
   font-family: "PT Serif", serif;
@@ -30,6 +34,7 @@ a:hover {
 
 h2 {
   color: #3f1622;
+  font-size: 1.5rem;
 }
 
 figure figcaption {
@@ -49,6 +54,12 @@ img {
   font-weight: bold;
 }
 
+main p {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 1.125rem;
+}
+
 blockquote {
   font-family: "PT Sans", sans-serif;
   font-style: italic;
@@ -65,7 +76,7 @@ blockquote cite {
 
 .variety {
   font-family: "PT Sans", sans-serif;
-  font-size: 1.125rem;
+  font-size: .8rem;
   list-style: lower-greek;
 }
 
